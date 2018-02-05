@@ -16,3 +16,7 @@ Erstellt und getestet wurde dieses Projekt mit folgender Laufzeitkonfiguration:
 
 - Maven 3.5
 - JUnit 4 
+
+Eine Version dieses Beispiels für JUnit 5 befindet sich 
+[hier](https://github.com/doubleSlashde/maven-multimodule-coverage/tree/master).
+
