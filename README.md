@@ -9,11 +9,3 @@ Integrationstests zusammen).
 
 Für die Messung der Testabdeckung wird das 
 [JaCoCo-Maven-Plugin](http://www.eclemma.org/jacoco/trunk/doc/maven.html) verwendet.
-
-## Laufzeitumgebung ##
-
-Erstellt und getestet wurde dieses Projekt mit folgender Laufzeitkonfiguration:
-
-- Maven 3.5
-- Java 8
-- JUnit 5 
