@@ -17,3 +17,6 @@ Erstellt und getestet wurde dieses Projekt mit folgender Laufzeitkonfiguration:
 - Maven 3.5
 - Java 8
 - JUnit 5 
+
+Eine Version dieses Beispiels für JUnit 4 befindet sich im Branch 
+[junit-4](https://github.com/doubleSlashde/maven-multimodule-coverage/tree/junit-4).
