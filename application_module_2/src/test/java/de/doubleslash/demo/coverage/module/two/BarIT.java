@@ -1,27 +1,27 @@
 package de.doubleslash.demo.coverage.module.two;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-class BarIT {
+public class BarIT {
 
     private Bar testee;
 
-    @BeforeEach
-    void setUp() {
+    @Before
+    public void setUp() {
         testee = new Bar();
     }
 
     @Test
-    void testAnotherBarMethod() {
+    public void testAnotherBarMethod() {
         assertThat(testee.anotherBarMethod(), is("jacoco5"));
     }
 
     @Test
-    void testConditionedBarMethod() {
+    public void testConditionedBarMethod() {
         assertThat(testee.conditionedBarMethod(false), is("jacoco"));
     }
 

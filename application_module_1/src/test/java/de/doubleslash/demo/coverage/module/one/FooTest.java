@@ -1,14 +1,14 @@
 package de.doubleslash.demo.coverage.module.one;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
+import static org.junit.Assert.assertThat;
 
-class FooTest {
+public class FooTest {
 
     @Test
-    void testFooMethod() {
+    public void testFooMethod() {
         Foo testee = new Foo();
         assertThat(testee.fooMethod(), is(7));
     }
