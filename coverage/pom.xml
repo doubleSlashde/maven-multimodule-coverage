@@ -42,7 +42,7 @@
           <!--aggregated unit test reports-->
           <execution>
             <id>aggregate-reports-ut</id>
-            <phase>verify</phase>
+            <phase>test</phase>
             <goals>
               <goal>report-aggregate</goal>
             </goals>
