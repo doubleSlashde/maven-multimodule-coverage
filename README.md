@@ -15,5 +15,4 @@ Für die Messung der Testabdeckung wird das
 Erstellt und getestet wurde dieses Projekt mit folgender Laufzeitkonfiguration:
 
 - Maven 3.5
-- Java 8
-- JUnit 5 
+- JUnit 4 
