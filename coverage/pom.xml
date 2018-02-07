@@ -39,7 +39,7 @@
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <executions>
-          <!--aggregated unit test reports-->
+          <!--aggregated unit test coverage report -->
           <execution>
             <id>aggregate-reports-ut</id>
             <phase>test</phase>
@@ -54,7 +54,7 @@
               </dataFileExcludes>
             </configuration>
           </execution>
-          <!--aggregated integration test reports-->
+          <!-- aggregated integration test coverage report -->
           <execution>
             <id>aggregate-reports-it</id>
             <phase>verify</phase>
@@ -69,7 +69,7 @@
               </dataFileExcludes>
             </configuration>
           </execution>
-          <!--aggregated all test reports-->
+          <!-- aggregated overallall test coverage report -->
           <execution>
             <id>aggregate-reports-all</id>
             <phase>verify</phase>

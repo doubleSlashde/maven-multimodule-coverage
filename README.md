@@ -40,4 +40,4 @@ Die Coverage-Reports (HTML) werden im `site`-Ordner unterhalb von `target` des M
 ## Wichtig! ##
 
 Wird dem Projekt ein neues Modul hinzugefügt, muss dieses in der `pom.xml` des `coverage`-Moduls als Dependency 
-hinzugefügt werden. _Ansonsten wird die Testabeckung des neuen Moduls in den Reports nicht berücksichtigt_!
+hinzugefügt werden. _Ansonsten wird die Testabdeckung des neuen Moduls in den aggregierten Reports nicht berücksichtigt_!
