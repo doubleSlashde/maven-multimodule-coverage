@@ -1,4 +1,5 @@
 # Coverage-Reports mit Maven in Multi-Modul-Projekten
+![Java CI with Maven](https://github.com/doubleSlashde/maven-multimodule-coverage/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 Beispielkonfiguration für die Generierung von Coverage-Reports in einem Maven-Projekt, das aus mehreren Modulen 
 besteht. Für Unit-Tests sowie Integrationstests werden Coverage-Reports erstellt, die jeweils über alle Module
